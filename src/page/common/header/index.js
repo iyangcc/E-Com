@@ -43,3 +43,18 @@ var header = {
     }
 };
 header.init();
+
+$('.search-car').on('mouseover',function(){
+    $('.car-shopping').css({"display":"block","box-shadow":"2px 2px 5px #ddd"});
+    $('.search-car').css({"background":"#fff","box-shadow":"2px 2px 5px #ddd"});
+}).on('mouseout',function(){
+    $('.search-car').css({"background":"#f9f9f9","box-shadow":"none"});
+    $('.car-shopping').css('display','none');
+});
+$('.car-shopping').on('mouseover',function (){
+    $('.car-shopping').css({"display":"block","box-shadow":"2px 2px 5px #ddd"});
+    $('.search-car').css({"background":"#fff","box-shadow":"2px 2px 5px #ddd"});
+}).on('mouseout',function(){
+    $('.search-car').css({"background":"#f9f9f9","box-shadow":"none"});
+    $('.car-shopping').css('display','none');
+});

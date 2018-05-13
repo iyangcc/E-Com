@@ -1,4 +1,7 @@
 /* 通用头部导航 */
+.header {
+    height: 100px;
+}
 .header .logo {
     float: left;
     padding: 20px 0;
@@ -56,7 +59,7 @@
     text-align: center;
     line-height: 34px;
     position: relative;
-    margin: 25px 65px 0 0;
+    margin: 26px 65px 0 0;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
 }
@@ -101,11 +104,38 @@
     margin-right: 65px;
     width: 1px;
 }
-.car-shopping {
+.car-shopping:before {
+    content: '';
     position: absolute;
-    display: none;
+    display: block;
+    top: -1px;
+    right: 0px;
+    width: 139px;
+    height: 2px;
     background: #fff;
-    width: 240px;
-    height: 165px;
+}
+.car-shopping {
+    position: relative;
+    top: 0px;
+    right: 75px;
+    display: none;
+    width: 280px;
+    /*height: 165px;*/
+    background: #fff;
+    border: 1px solid #ddd;
     z-index: 1000;
+}
+.no-something {
+    /*position: absolute;*/
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 12px;
+
+}
+.no-something p {
+    font-size: 40px;
+}
+.no-something span {
+    padding-left: 10px;
+    font-size: 14px;
 }

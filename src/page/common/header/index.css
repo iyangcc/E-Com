@@ -1,0 +1,111 @@
+/* 通用头部导航 */
+.header .logo {
+    float: left;
+    padding: 20px 0;
+}
+.header .logo a {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    color: #FF9900;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.header .search-con{
+    float: left;
+    height: 36px;
+    padding-top: 25px;
+}
+.header .search-con .search-input{
+    float: left;
+    width: 500px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #FF9900;
+    outline: none;
+}
+.header .search-con .search-btn{
+    float: left;
+    width: 82px;
+    height: 36px;
+    color: #fff;
+    background-color: #FF9900;
+    font: 400 16px/36px "microsoft yahei";
+    cursor: pointer;
+}
+
+/* 面包屑导航 */
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #FF9900;
+}
+
+.search-car {
+    float: right;
+    width: 139px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    margin: 25px 65px 0 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.search-car-gwc {
+    position: absolute;
+    left: 18px;
+    color: #808080;
+    font-size: 20px;
+    line-height: 34px;
+}
+.search-car-jt {
+    position: absolute;
+    right: 10px;
+    font-size: 16px;
+    color: #a0a0a0;
+    line-height: 34px;
+}
+.search-car-mag {
+    position: absolute;
+    top: -8px;
+    right: 30px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    background: #FF9900;
+    border-radius: 7px 7px 7px 0;
+}
+.search-moreAlink {
+    float: left;
+    max-width: 510px;
+    height: 28px;
+    line-height: 28px;
+}
+.search-moreAlink li {
+    float: left;
+    margin-right: 16px;
+}
+.car-fr {
+    float: right;
+    margin-right: 65px;
+    width: 1px;
+}
+.car-shopping {
+    position: absolute;
+    display: none;
+    background: #fff;
+    width: 240px;
+    height: 165px;
+    z-index: 1000;
+}

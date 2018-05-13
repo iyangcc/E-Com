@@ -1,4 +1,5 @@
 'use strict';
-require('../modules');
-require('./index.css');
-console.log('hello index');
+
+require('page/common/nav/index.js');
+require('page/common/header/index.js');
+var _mm = require('util/mm.js');

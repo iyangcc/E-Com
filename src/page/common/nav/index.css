@@ -1,0 +1,70 @@
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+.fl {
+    float: left;
+    width: 120px;
+}
+.nav-send {
+    position: relative;
+    padding: 0px 25px 0px 10px;
+    margin-right: 10px;
+}
+.nav-send:hover+.nav-city,
+.nav-city:hover {
+    display: block;
+}
+.nav-send span {
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+}
+.nav-send i {
+    position: absolute;
+    width: 16px;
+    height: 7px;
+    top: 10px;
+    right: 5px;
+}
+.nav-city {
+    position: relative;
+    display: none;
+    background: #fff;
+    width: 260px;
+    height: 180px;
+    z-index: 1000;
+}
+.nav-city td {
+    width: 45px;
+    text-align: center;
+}
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+/* 导航链接部分 */
+.nav .line{
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+    margin-top: 9px;
+    padding: 0px;
+}
+.nav .nav-list {
+    float: right;
+}
+.nav .nav-list li {
+    float: left;
+    margin-left: 5px;
+}
+.nav .nav-list .nav-item{
+    display: inline-block;
+}

@@ -1,0 +1,50 @@
+.footer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+    border-top: 1px solid #d6d5d4;
+}
+.footer .links .link{
+    padding: 0 10px;
+}
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer-top-shop {
+    padding: 15px;
+}
+.footer-top-shop dl {
+    float: left;
+    width: 240px;
+}
+.footer-top-shop dt,
+.coverage h3 {
+    height: 34px;
+    font: 400 16px/34px "microsoft yahei";
+}
+.footer-top-shop dd {
+    line-height: 23px;
+}
+dl.last-dl {
+    width: 100px;
+}
+.coverage {
+    width: 186px;
+    height: 169px;
+    float: right;
+    padding-left: 17px;
+    background: url("../../../image/china.png") no-repeat left bottom;
+}
+.coverage p {
+    margin-top: 8px;
+}
+.coverage a {
+    float: right;
+}

@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%= require('html-loader!./layout/html-head.html') %>
+    <head>
+    <%= require('html-loader!./layout/html-common.html') %>
+     <title>E-Com平台</title>
+    </head>
 <body>
-<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
-    nihao78
+    <%= require('html-loader!./layout/nav.html') %>
+    <%= require('html-loader!./layout/header.html') %>
+    <div class="w">
+<div class="box">
+    <div class="loading"></div>
+</div></div>
+    <%= require('html-loader!./layout/footer.html') %>
 </body>
 </html>

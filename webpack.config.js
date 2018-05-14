@@ -20,9 +20,10 @@ var getHtmlConfig = function(name, title){
 var config = {
     //文件入口
     entry: {
-        'common': ['./src/page/common/index.js','webpack-dev-server/client?http://localhost:8088/'],
+        'common': ['./src/page/common/index.js'],
         'index': ['./src/page/index/index.js'],
-        'login': ['./src/page/login/index.js']
+        'login': ['./src/page/login/index.js'],
+        'result': ['./src/page/result/index.js'],
     },
     //目标文件
     output: {
@@ -39,6 +40,7 @@ var config = {
         loaders: [
             { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader","css-loader") },
             { test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]' },
+            { test: /\.string$/, loader: 'html-loader' }
         ]
     },
     //别名
@@ -63,6 +65,7 @@ var config = {
         //HTML模板的处理
         new HtmlWebpackPlugin(getHtmlConfig('index','首页')),
         new HtmlWebpackPlugin(getHtmlConfig('login','登录')),
+        new HtmlWebpackPlugin(getHtmlConfig('result','操作结果')),
     ]
 };
 

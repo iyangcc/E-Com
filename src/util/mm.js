@@ -36,7 +36,7 @@ var _mm = {
     //统一登录处理
     doLogin : function(){
         //encodeURIComponent编码隐藏敏感信息
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //返回主页处理
     goHome : function(){

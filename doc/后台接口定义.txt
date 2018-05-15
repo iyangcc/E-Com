@@ -1,0 +1,23 @@
+个人中心
+    --登录
+	/user/login.do  username,password
+    --注册
+	user/register.do   username,password,email,phone,question,answer
+    --检测用户名是否存在
+	/user/check_valid.do    /check_valid.do?str=admin&type=username
+    --获取登录用户信息
+	/user/get_user_info.do
+    --忘记密码
+	/user/forget_get_question.do  username
+    --提交问题答案
+	/user/forget_check_answer.do  username,question,answer
+    --忘记密码重设密码
+	/user/forget_reset_password.do  username,password,forgetToken
+    --登录中状态重置密码
+	/user/reset_password.do   passwordOld,passwordNew
+    --登录状态更新个人信息
+	/user/update_information.do  email,phone,question,answer
+    --获取当前登录用户的详细信息
+	/user/get_information.do
+    --退出登录
+	/user/logout.do

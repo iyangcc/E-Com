@@ -1,0 +1,54 @@
+项目始化
+  --项目目录
+  	src 业务代码
+		page+view （页面、样式）
+		service （数据）
+		util （工具）
+		image（图片）
+
+	dist 打包生成
+		View
+		Js
+		Css
+		resource
+
+  --项目工具
+	webpack全局安装
+	—依赖包
+		"css-loader": "^0.28.1",
+    		"extract-text-webpack-plugin": "^1.0.1",
+   		"file-loader": "^1.1.11",
+    		"html-loader": "^0.5.5",
+    		"html-webpack-plugin": "^3.2.0",
+    		"style-loader": "^0.17.0",
+    		"url-loader": "^1.0.1",
+    		"webpack": "^1.15.0",
+    		"webpack-dev-server": "^1.16.5"
+
+	Webpack配置文件
+		entry：文件入口
+		output：目标文件
+		externals：外部依赖声明
+		module：各种文件，各种loader
+		resolve：别名
+		plugins：插件
+
+	js封装工具
+		网络请求工具
+		URL路径工具
+		模板渲染工具-hogan
+		字段验证&&通用提示
+		同意跳转
+
+	页面布局技巧
+		定宽布局
+		通用部分的抽离
+		icon-font的引入
+		通用样式的定义
+
+	设计方面
+		采用对齐
+		对称
+		扁平化
+		保持一定距离
+		配色（web安全色，灰色百搭）

@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <%= require('html-loader!./layout/html-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title %> - E-Com平台</title>
+</head>
 <body>
 <%= require('html-loader!./layout/nav.html') %>
 <%= require('html-loader!./layout/header.html') %>

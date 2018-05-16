@@ -101,6 +101,9 @@ input[type='checkbox']{
 
 /* loading */
 .box {
+    position: relative;
+    left: 50%;
+    margin-left: -17px;
     width: 70px;
     height: 35px;
     border-radius: 3px;

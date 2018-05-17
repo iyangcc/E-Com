@@ -37,7 +37,7 @@ input[type='checkbox']{
     width: 1080px;
     margin: 0 auto;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /* panel */

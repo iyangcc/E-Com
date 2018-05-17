@@ -86,6 +86,16 @@ var _user = {
             error   : reject
         });
     },
+    // 登录状态下更新密码
+    updatePassword : function(userInfo, resolve, reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/user/reset_password.do'),
+            data    : userInfo,
+            method  : 'POST',
+            success : resolve,
+            error   : reject
+        });
+    },
 
 
 }
